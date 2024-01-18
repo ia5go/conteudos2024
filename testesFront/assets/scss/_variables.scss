@@ -1,0 +1,53 @@
+@use "fonts";
+
+// TITLE SIZES
+$T1: 3.125rem;
+$T2: 2.5rem;
+$T3: 1.875rem;
+$T4: 1.25rem;
+$T5: 1.125rem;
+
+$T1-mobile: 2.5rem;
+$T2-mobile: 1.875rem;
+$T3-mobile: 1.563rem;
+$T4-mobile: 1.125rem;
+$T5-mobile: 1.063rem;
+
+// PARAGRAPHS SIZES
+$P1: 1rem;
+$P2: 0.875rem;
+
+$P1-mobile: 0.938rem;
+$P2-mobile: 0.813rem;
+
+// COLORS THEME
+$color-one: #404040;
+$color-two: #7c7c7c;
+$color-three: #b3b3b3;
+$color-four: #cacaca;
+$color-five: #efefef;
+
+$color-six: #e6e6e6;
+$color-seven: #f2f2f2;
+$color-eight: #282828;
+$color-nine: #d9d9d9;
+$color-ten: #393939;
+
+$color-white: #fff;
+$color-black: #000;
+
+// FONTS FAMILY
+$font-primary: "Ubuntu", sans-serif, arial;
+$font-secondary: "Ubuntu", sans-serif, arial;
+$font-paragraph: "Montserrat", sans-serif, arial;
+
+// FONT PARAGRAPH
+$paragraph: 400 $P1 $font-paragraph ;
+$paragraph-min: 400 $P2 $font-paragraph;
+
+$paragraph-mobile: 400 $P1-mobile $font-paragraph;
+$paragraph-min-mobile: 400 $P2-mobile $font-paragraph;
+
+$color-info: #0d84f5;
+$color-warning: #f5980d;
+$color-danger: #c90000;
